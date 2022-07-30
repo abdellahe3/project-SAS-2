@@ -17,6 +17,16 @@ int Sum(int n1 , int n2 ){
 }
 
 int Modulo(int n1 , int n2 ){
+    /*
+    Modulo is a mathematical term relating to congruence,
+     in particular: in modular arithmetic we speak of congruent integers modulo n;
+     in computer science, the modulo is an operation which associates
+     the remainder r of the Euclidean division of a by b with the pair (a, b) of integers.
+    */
+
+
+
+
     int mod = n1 % n2 ;
 
     return mod ;
