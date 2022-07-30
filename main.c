@@ -4,6 +4,8 @@
 int main()
 {
     printf("%d\n" , Sum(1 , 1));
+
+    printf("%d\n" , Modulo(1 , 1));
     return 0;
 }
 
@@ -13,3 +15,10 @@ int Sum(int n1 , int n2 ){
 
     return sum;
 }
+
+int Modulo(int n1 , int n2 ){
+    int mod = n1 % n2 ;
+
+    return mod ;
+}
+
